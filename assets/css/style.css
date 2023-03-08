@@ -114,6 +114,50 @@ header nav a:hover {
     width: 90%;
 }
 
+.flex-item {
+    border: 5px solid var(--dark);
+    background-color: var(--light);
+    color: (--dark);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+  
+.flex-item:first-child {
+      min-height: 400px;
+      flex-basis: 100%;
+}
+  
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+  
+.flex-item div {
+    background-color: var(--light);
+    padding: 8px 10px;
+}
+  
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+.movie-finder {
+    background-image: url("/assets/img/Screenshot\ 2023-03-07\ at\ 8.59.28\ PM\ Large.jpeg");
+}
+
+.project {
+    background-image: url("/assets/img/Screenshot.jpeg");
+}
+
   /*footer styling section */
 footer {
     display: flex;
