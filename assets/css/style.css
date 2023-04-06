@@ -158,6 +158,10 @@ header nav a:hover {
     background-image: url("/assets/img/Screenshot.jpeg");
 }
 
+.pet-picker {
+    background-image: url("/assets/img/Screenshot\ Pet-Picker.png");
+}
+
   /*footer styling section */
 footer {
     display: flex;
