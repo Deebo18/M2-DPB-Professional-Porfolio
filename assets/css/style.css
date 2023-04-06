@@ -151,15 +151,16 @@ header nav a:hover {
 }
 
 .movie-finder {
-    background-image: url("/assets/img/Screenshot\ 2023-03-07\ at\ 8.59.28\ PM\ Large.jpeg");
+    background-image: url("../img/Screenshot\ 2023-03-07\ at\ 8.59.28\ PM\ Large.jpeg");
 }
 
 .project {
-    background-image: url("/assets/img/Screenshot.jpeg");
+    background-image: url("../img/Screenshot.jpeg");
 }
 
 .pet-picker {
-    background-image: url("/assets/img/Screenshot\ Pet-Picker.png");
+    background-image: url("../img/petpicker.jpeg");
+    display: flex;
 }
 
   /*footer styling section */
